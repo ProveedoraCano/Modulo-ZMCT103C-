@@ -1,6 +1,5 @@
 //ProveedoraCano.com/blog
 //Sketch para leer la corriente en modulo ZMCT103C
-
 const int sensorPin = A0;
 const float burdenResistor = 200.0;
 const float turnsRatio = 1000.0;
@@ -32,4 +31,3 @@ void loop() {
 
   delay(1000);
 }
-﻿
